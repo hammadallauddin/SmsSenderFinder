@@ -34,7 +34,7 @@ public class SmsReceiver extends BroadcastReceiver {
 
                     Toast.makeText(context,"senderNum: " + senderNum + "; message: " + message, Toast.LENGTH_SHORT).show();
 
-                    if(senderNum.contains("+923310215316")){
+                    if(senderNum.contains("+xxxxxxxxxxxxxx")){
                         Toast.makeText(context, "You are in if condition", Toast.LENGTH_LONG).show();
                         abortBroadcast();
                     }
